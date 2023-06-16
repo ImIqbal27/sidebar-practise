@@ -1,0 +1,46 @@
+:root {
+  /* color */
+  --color-primary: #0183ff;
+  --color-background: #081f4c;
+  --color-background-light: #1d3460;
+  --color-white: #fff;
+  --color-text: #6e7ea4;
+
+  /* typhography */
+  --ff-main: "Poppins", sans-serif;
+  --fs-sm: 1.4rem;
+  --ff-lg: 1.8rem;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  /* border radius */
+  --br: 1.5rem;
+  /* transition */
+  --transition: all 0.3s ease;
+  /* sidebar width */
+  --sidebar-width: 9rem;
+  --sidebar--open-width: 26rem;
+}
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: var(--ff-main);
+  font-family: var(--fs-sm);
+  transition: var(--transition);
+}
